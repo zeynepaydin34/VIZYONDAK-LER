@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    Layout = "_Layout";
+}
+
+<html lang="tr">
+    <head>
+        <link rel="stylesheet" href="filmler.css">,
+
+    </head>
+
+    <h1 style="text-align: center;">Vizyondaki Filmler</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Anasayfa</a></li>
+        <li><a href="@Url.Action("LoginPage","LoginPage")">Giriş</a> </li>
+            <li><a href="k">Üye Ol</a></li>
+        </ul>
+    </nav>
+    <form action="#" method="GET" style="text-align: center;">
+    <label for="il">İl:</label>
+        
+        <label for="ilce">İlçe:</label>
+        <select name="ilce" id="ilce">
+          <option value="kadikoy">Kadıköy</option>
+          <option value="besiktas">Beşiktaş</option>
+          <!-- Diğer ilçeleri buraya ekleyin -->
+        </select>
+      
+        <label for="tur">Film Türü:</label>
+        <select name="tur" id="tur">
+          <option value="aksiyon">Aksiyon</option>
+          <option value="komedi">Komedi</option>
+          <!-- Diğer türleri buraya ekleyin -->
+        </select>
+      
+        <label for="tarih">Tarih:</label>
+        <input type="date" id="tarih" name="tarih">
+      
+        <button type="submit">Filtrele</button>
+      </form>
+    <div class="film-kartlari">
+        <div class="film-karti">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrMjwkEoKGLOUwWcF6y-y67f2PLnxzT0MqIIGOuR0MMw&s" alt="Mucize Aynalar">
+          <h2>Mucize Aynalar</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://upload.wikimedia.org/wikipedia/tr/d/d9/Atat%C3%BCrkFilm.jpg" alt="Zavallılar">
+          <h2>Atatürk (2.Film)</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://m.media-amazon.com/images/M/MV5BZDY0YzI0OTctYjVhYy00MTVhLWE0NTgtYTRmYTBmOTE3YTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg" alt="Kung Fu Panda 4">
+          <h2>Kung Fu Panda 4</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://tr.web.img2.acsta.net/pictures/24/03/23/12/01/2671206.jpg" alt="Arap Kadri">
+          <h2>Arap Kadri</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://tr.web.img4.acsta.net/pictures/24/03/15/09/23/4806316.jpg" alt="Maymun Adam">
+          <h2>Maymun Adam</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSF3aJDuJZP6rQwO01MaIS5ubGwrXE0qaYdlRHJl5kGQ&s" alt="Kral Şakir">
+          <h2>Kral Şakir</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ogretmenler-odasi-2024131732280efebc6d18924a2a82028acb747623de.JPG" alt="Öğretmenler Odası">
+          <h2>Öğretmenler Odası</h2>
+          <button>Bilet Al</button>
+        </div>
+      
+        <div class="film-karti">
+          <img src="https://tr.web.img3.acsta.net/c_310_420/img/eb/19/eb190f19f49621eff1154aa45cb67e80.jpg" alt="Bodrum Seferi">
+          <h2>Bodrum Seferi</h2>
+          <button>Bilet Al</button>
+        </div>
+        
+        <div class="film-karti">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaVoCEwdoF9ZBRqjC84798wjX3R6mFSBKBttgDabbjg&s" alt="Nuh'un Gemisi">
+            <h2>Nuh'un Gemisi</h2>
+            <button>Bilet Al</button>
+          </div>
+        
+          <div class="film-karti">
+            <img src="https://tr.web.img3.acsta.net/c_310_420/img/eb/19/eb190f19f49621eff1154aa45cb67e80.jpg" alt="Vincent Ölmeli">
+            <h2>Vincent Ölmeli</h2>
+            <button>Bilet Al</button>
+          </div>
+
+          <div class="film-karti">
+            <img src="https://tr.web.img3.acsta.net/c_310_420/img/eb/19/eb190f19f49621eff1154aa45cb67e80.jpg" alt="Arap Kadri">
+            <h2>Arap Kadri</h2>
+            <button>Bilet Al</button>
+          </div>
+
+
+          <div class="film-karti">
+            <img src="https://tr.web.img3.acsta.net/c_310_420/img/eb/19/eb190f19f49621eff1154aa45cb67e80.jpg" alt="Hep Yek:Aşiret">
+            <h2>Hep Yek:Aşiret</h2>
+            <button>Bilet Al</button>
+          </div>
+      </div>
+</html>

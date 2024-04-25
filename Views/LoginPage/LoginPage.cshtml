@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "LoginPage";
+}
+
+@{
+    Layout = "_Layout";
+}
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="loginpage.css">
+    <title>GİRİŞ YAP</title>
+</head>
+
+<div class="imgcontainer">
+    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="Profile" class="avatar">
+</div>
+
+<div class="container">
+    <label for="uname"><b>E-mail</b></label>
+    <input type="text" placeholder="Kullanıcı Adını Giriniz" name="uname" required>
+
+    <label for="psw"><b>Şifre</b></label>
+    <input type="password" placeholder="Şifreyi Giriniz" name="psw" required>
+
+    <button type="submit">Giriş Yap</button>
+
+    <label>
+        <input type="checkbox" checked="checked" name="remember"> Beni Hatırla
+    </label>
+
+</div>
+
+<div class="container" style="background-color:white">
+
+    <span class="psw">Şifremi Unuttum <a href="#">password?</a></span>
+</div>
+
+</div>
+</html>
+
+
